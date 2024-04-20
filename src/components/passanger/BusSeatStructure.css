@@ -1,0 +1,29 @@
+  .bus-seat-row {
+    display: flex;
+    gap: 10px; 
+  }
+  
+  .seat {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .seat-gap {
+    width: 50px; 
+  }
+
+  .booked {
+    background-color: rgb(151, 151, 224);
+    color: white;
+  }
+
+  .alreadybooked {
+    background-color: rgb(206, 176, 122);
+  }
+
+  
